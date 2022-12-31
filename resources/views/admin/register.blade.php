@@ -59,10 +59,9 @@
                         </div>
                         <div class="mb-3">
                             <button class="btn btn-primary">Register</button>
-                            <a class="btn btn-danger" href="{{ route('home') }}">Back</a>
                         </div>
                         <div class="register-link m-t-15 text-center">
-                            <p>Already have account ? <a href="{{url ('admin.login')}}"> Sign in</a></p>
+                            <p>Already have account ? <a href="{{ url ('login')}}"> Sign in</a></p>
                         </div>
                     </form>
 
